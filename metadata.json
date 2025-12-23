@@ -1,0 +1,10 @@
+
+{
+  "name": "GuardNet 班级管家",
+  "description": "专业级学生上网行为管理系统，支持全班一键断网、个体精准控制及AI行为分析。",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
