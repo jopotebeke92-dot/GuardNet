@@ -25,7 +25,13 @@ export interface ActivityLog {
   status: '通过指令' | '拦截指令';
 }
 
-// Fix: Added missing Message interface required by ChatView.tsx
+export interface SecurityPolicy {
+  id: string;
+  name: string;
+  desc: string;
+  active: boolean;
+}
+
 export interface Message {
   id: string;
   role: 'user' | 'model';
